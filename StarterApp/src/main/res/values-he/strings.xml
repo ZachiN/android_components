@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Components</string>
+
+    <string name="hello_world">היי עולם !</string>
+    <string name="action_settings">הגדרות</string>
+
+    <string name="txt_view_main_headline">My First Application</string>
+    <string name="edit_txt_insertHere">Insert Text …</string>
+    <string name="btn_one">This is Button 1</string>
+    <string name="btn_two">This is Button 2</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="image_view_desc">this is an image view</string>
+    <string name="button_send">Send</string>
+
+    <string name="permission_general_name">General Permission</string>
+</resources>

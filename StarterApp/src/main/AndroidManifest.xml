@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.examples.components.components">
+
+    <!-- Which android features this application needs when installed -->
+    <uses-feature android:name="android.hardware.camera2.CameraDevice" android:required="false"/>
+
+    <!-- Application permission for my own use -->
+    <permission
+        android:name="GeneralPermission"
+        android:icon="@drawable/mr_bean"
+        android:label="@string/permission_general_name"
+        android:permissionGroup="GeneralPermissionsGroups"
+        android:protectionLevel="normal"/>
+    <!-- normal, dangerous, signature, signatureOrSystem -->
+
+    <!-- Permissions the application requests from the user on installation -->
+    <uses-permission android:name="ANDROID.PERMISSION.READ_SMS"/>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <!-- Markers for the initial activity to be loaded on application start -->
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"/>
+
+    </application>
+
+</manifest>
