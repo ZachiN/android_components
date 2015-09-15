@@ -1,0 +1,5 @@
+include ':StarterApp', ':FragmentBasics', ':CensusApp',
+        ':StockQuotes',
+        ':AddressBookApp',
+        ':SimpleFragment',
+        'TipCalculator'
