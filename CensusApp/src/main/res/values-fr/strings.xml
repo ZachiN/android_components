@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App Recensement</string>
+    <string name="action_settings">RÃ©glages</string>
+    <string name="contact_name_hint">Entrez le nom</string>
+    <string name="contact_phone_number_hint">Entrez le numÃ©ro de tÃ©lÃ©phone</string>
+    <string name="contact_street_hint">Entrez rue</string>
+    <string name="contact_city_hint">Saisissez votre ville</string>
+</resources>

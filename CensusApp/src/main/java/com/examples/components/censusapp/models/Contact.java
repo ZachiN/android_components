@@ -2,6 +2,8 @@ package com.examples.components.censusapp.models;
 
 import android.util.Log;
 
+import java.util.UUID;
+
 /**
  * Created by Zachi on 05/09/2015.
  */
@@ -10,8 +12,23 @@ public class Contact {
     private String phoneNumber;
     private String streetAddress;
     private String city;
+    private UUID idNumber;
+    private boolean contacted = false;
 
     public Contact() {
+        idNumber = UUID.randomUUID();
+    }
+
+    public boolean isContacted() {
+        return contacted;
+    }
+
+    public void setContacted(boolean contacted) {
+        this.contacted = contacted;
+    }
+
+    public UUID getIdNumber() {
+        return idNumber;
     }
 
     public String getStreetAddress() {

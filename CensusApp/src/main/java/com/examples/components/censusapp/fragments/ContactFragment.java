@@ -8,6 +8,7 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.EditText;
 
 import com.examples.components.censusapp.R;
@@ -24,6 +25,8 @@ public class ContactFragment extends Fragment {
     private EditText contactStreetEditText;
     private EditText contactCityEditText;
     private EditText contactPhoneEditText;
+
+    private CheckBox contactedCheckBox;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -62,6 +65,8 @@ public class ContactFragment extends Fragment {
         contactStreetEditText.addTextChangedListener(tw);
         contactCityEditText.addTextChangedListener(tw);
         contactPhoneEditText.addTextChangedListener(tw);
+
+//        contactedCheckBox = (CheckBox)
 
         return theView;
     }

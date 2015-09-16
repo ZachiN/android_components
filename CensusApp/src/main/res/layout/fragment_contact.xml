@@ -40,4 +40,25 @@
         android:ems="10"
         android:hint="@string/contact_phone_number_hint"
         android:inputType="textCapWords|phone|textPhonetic" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_column="0">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_contacted_checkbox"
+                android:id="@+id/contactedCheckBox" />
+        </TableRow>
+    </TableRow>
 </TableLayout>
